@@ -17,6 +17,5 @@ from a nationally representative survey and Mendelian randomization"
 
 ## Usage
 1. Download GWAS summary statistics from the sources above.
-2. Extract instruments (P < 5e-8, clumping window 500 kb, F > 10) and harmonise with
-   outcome data as CSV files with the columns listed in `analysis_pipeline.py`.
+2. Extract instruments at genome-wide significance (P < 5e-8, F > 10), clump by linkage disequilibrium (r² < 0.001, 10 Mb window, 1000 Genomes European reference) via the OpenGWAS clumping API, and harmonise with outcome data as CSV files with the columns listed in analysis_pipeline.py. Distance-based clumping windows (500 kb, 1 Mb, 2 Mb) were evaluated as sensitivity analyses.
 3. Run: `python analysis_pipeline.py`
