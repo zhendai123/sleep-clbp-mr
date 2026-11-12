@@ -6,6 +6,8 @@ Analysis code for: **"Genetic liability to insomnia, but not obstructive sleep a
 - `analysis_pipeline.py` - core MR pipeline: instrument harmonisation, IVW, MR-Egger,
   weighted median, Steiger directionality, two-step MR mediation functions.
 - ` osa_pruned_rerun.py` - OSA comparison analysis with 500-kb distance-window pruning (34 independent instruments).
+- `NHANES_睡眠-慢性腰痛_重建分析.R` - NHANES 2009-2010 survey-weighted analyses (R 4.4.1, survey package): dual-item CLBP definition, composite sleep phenotype, Models 1-3, depression interaction, restricted cubic splines, inflammation mediation.
+- `nhanes_sleep_clbp_verification.py` - independent Python 3.12 verification of all NHANES numbers (Taylor-linearised design variance, numerically equivalent to R survey).
 
 ## Data (all publicly available, no download included)
 - NHANES 2009-2010: https://www.cdc.gov/nchs/nhanes (files DEMO_F, ARQ_F, SLQ_F, DPQ_F,
