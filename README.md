@@ -1,7 +1,6 @@
-# Sleep disturbance and chronic low back pain - analysis code
+# sleep-clbp-mr
 
-Companion code for: "Sleep disturbance and chronic low back pain: triangulated evidence
-from a nationally representative survey and Mendelian randomization"
+Analysis code for: **"Genetic liability to insomnia, but not obstructive sleep apnea, causally increases chronic low back pain: triangulating Mendelian randomization and NHANES evidence"**
 
 ## Contents
 - `analysis_pipeline.py` - core MR pipeline: instrument harmonisation, IVW, MR-Egger,
