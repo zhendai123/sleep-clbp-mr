@@ -5,7 +5,7 @@ Analysis code for: **"Genetic liability to insomnia, but not obstructive sleep a
 ## Contents
 - `analysis_pipeline.py` - core MR pipeline: instrument harmonisation, IVW, MR-Egger,
   weighted median, Steiger directionality, two-step MR mediation functions.
-   - osa_pruned_rerun.py - OSA comparison analysis with 500-kb distance-window pruning (34 independent instruments).
+- ` osa_pruned_rerun.py` - OSA comparison analysis with 500-kb distance-window pruning (34 independent instruments).
 
 ## Data (all publicly available, no download included)
 - NHANES 2009-2010: https://www.cdc.gov/nchs/nhanes (files DEMO_F, ARQ_F, SLQ_F, DPQ_F,
